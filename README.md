@@ -6,7 +6,7 @@ What you should already know?
 4.	It  also requires the basic concept of OOPs.
 5.	NO Angular 1 or Angular2 or angular4 or Angular5 or Angular6 or Angular7,8,9,10,11 knowledge is required
 # Why Developers choose Angular
-  *Separation of DOOM manipulation logic from Application Logic
+  *Separation of DOM manipulation logic from Application Logic
 	We all now DOM stands for Document Object Model, it is a tree-structured model created in the page. In we 	applications, developed by using plain JavaScript or jQuery, developers need to write code manually to update the 	HTML element such as add/ remove, etc.
 	In Angular, the DOM manipulation logic is completely eliminated which means developers don't need to write code for manipulation of HTML elements at run time, the angular framework itself does it.
 * Separation of HTML Login from Application Logic
