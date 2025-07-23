@@ -103,3 +103,84 @@
 * Signals-based reactivity
 * Hydration improvements for SSR
 * Control flow syntax (`@if`, `@for` etc.)
+---
+
+Perfect, Sudhir! Let's begin your **Angular 19 course** step by step. I’ll provide clear explanations with examples. You can practice each step and ask questions anytime.
+
+---
+
+## 🔹 **Lesson 1: What is Angular?**
+
+### ✅ Angular is:
+
+* A **TypeScript-based** open-source front-end framework.
+* Developed by **Google**.
+* Used for **building SPAs** (Single Page Applications).
+* Follows a **component-based architecture**.
+
+---
+
+## 🔹 **Lesson 2: Angular vs AngularJS**
+
+| Feature         | AngularJS (1.x) | Angular (2+ to 19)      |
+| --------------- | --------------- | ----------------------- |
+| Language        | JavaScript      | TypeScript              |
+| Architecture    | MVC             | Component-based         |
+| Mobile Support  | No              | Yes                     |
+| Performance     | Slower          | Faster with Ivy Engine  |
+| Modularity      | Poor            | Highly modular          |
+| Modern Features | None            | RxJS, Signals, DI, etc. |
+
+---
+
+## 🔹 **Lesson 3: Install Angular CLI & Create Project**
+
+### ✅ Step 1: Install Node.js (Skip if already installed)
+
+Go to: [https://nodejs.org](https://nodejs.org)
+
+---
+
+### ✅ Step 2: Install Angular CLI globally
+
+```bash
+npm install -g @angular/cli
+```
+
+---
+
+### ✅ Step 3: Create a new Angular 19 standalone project
+
+```bash
+ng new my-angular-app --standalone
+cd my-angular-app
+```
+
+It will ask:
+
+* Add Angular routing? → Yes
+* Which stylesheet format? → Choose `SCSS` or `CSS`
+
+---
+
+### ✅ Step 4: Run your Angular app
+
+```bash
+ng serve
+```
+
+Then open your browser and go to:
+👉 `http://localhost:4200`
+
+You will see the default Angular welcome page.
+
+---
+
+### 🧪 Mini Task for You:
+
+1. Create the project `my-angular-app`
+2. Run it locally
+3. Reply "done ✅" when you see the default welcome page
+---
+
+
