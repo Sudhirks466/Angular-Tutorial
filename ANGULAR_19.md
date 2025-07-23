@@ -1,5 +1,5 @@
-## 📘 Table of Contents
 <a id="📘-table-of-contents"></a>
+## 📘 Table of Contents
 
 1. [Lesson 1: What is Angular?](#lesson-1-what-is-angular)
 2. [Lesson 2: Angular vs AngularJS](#lesson-2-angular-vs-angularjs)
