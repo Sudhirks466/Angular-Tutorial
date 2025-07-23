@@ -3,6 +3,8 @@
 1. [Lesson 1: What is Angular?](#lesson-1-what-is-angular)
 2. [Lesson 2: Angular vs AngularJS](#lesson-2-angular-vs-angularjs)
 3. [Lesson 3: Install Angular CLI & Create Project](#lesson-3-install-angular-cli--create-project)
+3. [Lesson 4: Angular Project Structure & First Component](#lesson-4-angular-project-structure-first-component)
+3. [Lesson 5: Creating Your First Component](#lesson-5-creating-your-first-component)
 4. [Lesson 6: Property Binding & Event Binding in Angular](#lesson-6-property-binding--event-binding-in-angular)
 5. [Lesson 7: Two-Way Data Binding with `[(ngModel)]`](#lesson-7-two-way-data-binding-with-ngmodel)
 6. [Lesson 8: Angular Directives](#lesson-8-angular-directives)
@@ -218,6 +220,128 @@ You will see the default Angular welcome page.
 3. Reply "done ✅" when you see the default welcome page
 
 ---
+
+<a id="lesson-4-angular-project-structure-first-component"></a>
+## 🔹 **Lesson 4: Angular Project Structure & First Component**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
+
+When you create an Angular project using `ng new`, it sets up a folder structure like this:
+
+```
+my-angular-app/
+├── src/
+│   ├── app/
+│   │   ├── app.config.ts
+│   │   ├── app.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   └── routes.ts
+│   ├── assets/
+│   ├── environments/
+│   └── main.ts
+├── angular.json
+├── package.json
+└── tsconfig.json
+```
+
+### 📁 Key Folders & Files
+
+| File/Folder                  | Description                                           |
+| ---------------------------- | ----------------------------------------------------- |
+| `src/main.ts`                | Entry point for the app                               |
+| `src/app/app.component.ts`   | Root component class                                  |
+| `src/app/app.component.html` | Template (HTML) for root component                    |
+| `angular.json`               | Angular CLI config                                    |
+| `package.json`               | Project dependencies                                  |
+| `app.config.ts`              | App-wide configuration (Angular 14+ Standalone setup) |
+
+---
+
+<a id="lesson-5-creating-your-first-component"></a>
+## 🔹 **Lesson 5: Creating Your First Component**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
+
+Let’s create a new component called `hello-world`.
+
+### ✅ Step 1: Generate component using CLI
+
+```bash
+ng generate component hello-world --standalone
+```
+
+Angular 19 uses **standalone components**, so the CLI automatically adds `standalone: true`.
+
+---
+
+### ✅ Step 2: Output Files
+
+This creates:
+
+```
+src/app/hello-world/
+├── hello-world.component.ts
+├── hello-world.component.html
+├── hello-world.component.scss
+```
+
+Open `hello-world.component.ts`, and you’ll see:
+
+```ts
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-hello-world',
+  standalone: true,
+  templateUrl: './hello-world.component.html',
+  styleUrls: ['./hello-world.component.scss']
+})
+export class HelloWorldComponent {}
+```
+
+---
+
+### ✅ Step 3: Add It to App Template
+
+Edit `app.component.html` to include:
+
+```html
+<h1>Welcome to Angular 19 🚀</h1>
+<app-hello-world></app-hello-world>
+```
+
+Then go to `main.ts`, and make sure your app bootstraps like this:
+
+```ts
+bootstrapApplication(AppComponent, appConfig)
+```
+
+If you used `--standalone` during `ng new`, this is already set.
+
+---
+
+### ✅ Step 4: Run your app
+
+```bash
+ng serve
+```
+
+You’ll now see:
+
+```
+Welcome to Angular 19 🚀
+(hello-world component content)
+```
+
+---
+
+### 🧪 Task for You:
+
+1. Generate a `hello-world` component.
+2. Add it inside `app.component.html`.
+3. Serve the app and confirm it appears.
+
 
 <a id="lesson-6-property-binding--event-binding-in-angular"></a>
 ## 🔹 **Lesson 6: Property Binding & Event Binding in Angular**
