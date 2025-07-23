@@ -1,3 +1,29 @@
+## 📘 Table of Contents
+
+1. [Lesson 1: What is Angular?](#lesson-1-what-is-angular)
+2. [Lesson 2: Angular vs AngularJS](#lesson-2-angular-vs-angularjs)
+3. [Lesson 3: Install Angular CLI & Create Project](#lesson-3-install-angular-cli--create-project)
+4. [Lesson 6: Property Binding & Event Binding in Angular](#lesson-6-property-binding--event-binding-in-angular)
+5. [Lesson 7: Two-Way Data Binding with `[(ngModel)]`](#lesson-7-two-way-data-binding-with-ngmodel)
+6. [Lesson 8: Angular Directives](#lesson-8-angular-directives)
+7. [Lesson 9: Services & Dependency Injection (DI)](#lesson-9-services--dependency-injection-di)
+8. [Lesson 10: Routing and Navigation in Angular](#lesson-10-routing-and-navigation-in-angular)
+9. [Lesson 11: Template-driven Forms vs Reactive Forms](#lesson-11-template-driven-forms-vs-reactive-forms)
+10. [Lesson 12: Angular Form Validation (Built-in + Custom)](#lesson-12-angular-form-validation-built-in--custom)
+11. [Lesson 13: Angular Pipes (Built-in + Custom)](#lesson-13-angular-pipes-built-in--custom)
+12. [Lesson 14: HTTP Requests with Angular `HttpClient`](#lesson-14-http-requests-with-angular-httpclient)
+13. [Lesson 15: Component Communication (Parent ↔ Child)](#lesson-15-component-communication-parent--child)
+14. [Lesson 16: Angular Lifecycle Hooks](#lesson-16-angular-lifecycle-hooks)
+15. [Lesson 17: Angular Routing Guards (CanActivate & CanDeactivate)](#lesson-17-angular-routing-guards-canactivate--candeactivate)
+16. [Lesson 18: Angular Signals (Angular 16+ feature)](#lesson-18-angular-signals-angular-16-feature)
+17. [Lesson 19: Standalone Components (No NgModules)](#lesson-19-standalone-components-no-ngmodules)
+18. [Lesson 20: Deferred Loading in Angular (`@defer`, `@loading`, `@error`, `@placeholder`)](#lesson-20-deferred-loading-in-angular-defer-loading-error-placeholder)
+19. [Lesson 21: Image Optimization with `ngOptimizedImage`](#lesson-21-image-optimization-with-ngoptimizedimage)
+20. [Lesson 22: Angular Animations with `@angular/animations`](#lesson-22-angular-animations-with-angularanimations)
+21. [Lesson 23: Building & Deploying an Angular App](#lesson-23-building--deploying-an-angular-app)
+22. [Lesson 24: Angular Interview Questions + Project Ideas](#lesson-24-angular-interview-questions--project-ideas)
+
+---
 ## 🔰 Full Angular 19 Course Roadmap
 
 ### ✅ Stage 1: Angular Basics (Beginner)
@@ -109,7 +135,10 @@ Perfect, Sudhir! Let's begin your **Angular 19 course** step by step. I’ll pro
 
 ---
 
+<a id="lesson-1-what-is-angular"></a>
 ## 🔹 **Lesson 1: What is Angular?**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ Angular is:
 
@@ -120,7 +149,10 @@ Perfect, Sudhir! Let's begin your **Angular 19 course** step by step. I’ll pro
 
 ---
 
+<a id="lesson-2-angular-vs-angularjs"></a>
 ## 🔹 **Lesson 2: Angular vs AngularJS**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 | Feature         | AngularJS (1.x) | Angular (2+ to 19)      |
 | --------------- | --------------- | ----------------------- |
@@ -133,7 +165,10 @@ Perfect, Sudhir! Let's begin your **Angular 19 course** step by step. I’ll pro
 
 ---
 
+<a id="lesson-3-install-angular-cli--create-project"></a>
 ## 🔹 **Lesson 3: Install Angular CLI & Create Project**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ Step 1: Install Node.js (Skip if already installed)
 
@@ -184,7 +219,10 @@ You will see the default Angular welcome page.
 
 ---
 
+<a id="lesson-6-property-binding--event-binding-in-angular"></a>
 ## 🔹 **Lesson 6: Property Binding & Event Binding in Angular**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 These two are **core concepts** in Angular for communication between HTML and component logic.
 
@@ -275,7 +313,10 @@ Try adding:
 * A button with `(click)` that updates some text
 ---
 
+<a id="lesson-7-two-way-data-binding-with-ngmodel"></a>
 ## 🔹 **Lesson 7: Two-Way Data Binding with `[(ngModel)]`**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ What is Two-Way Binding?
 
@@ -359,7 +400,10 @@ age = 0;
 2. Add a number input for age and display it.
 ---
 
+<a id="lesson-8-angular-directives"></a>
 ## 🔹 **Lesson 8: Angular Directives**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Angular **Directives** are special instructions in the DOM. They are divided into:
 
@@ -468,7 +512,10 @@ In `hello-world.component.scss`:
 
 ---
 
+<a id="lesson-9-services--dependency-injection-di"></a>
 ## 🔹 **Lesson 9: Services & Dependency Injection (DI)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ What is a Service?
 
@@ -564,7 +611,10 @@ export class HelloWorldComponent {
 
 ---
 
+<a id="lesson-10-routing-and-navigation-in-angular"></a>
 ## 🔹 **Lesson 10: Routing and Navigation in Angular**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Routing allows your Angular app to move between different **views/pages** (components) **without reloading the page** (SPA behavior).
 
@@ -665,7 +715,10 @@ ng serve
 
 ---
 
+<a id="lesson-11-template-driven-forms-vs-reactive-forms"></a>
 ## 🔹 **Lesson 11: Template-driven Forms vs Reactive Forms**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Angular offers **two approaches** for building forms:
 
@@ -782,7 +835,10 @@ export class HelloWorldComponent {
 
 ---
 
+<a id="lesson-12-angular-form-validation-built-in--custom"></a>
 ## 🔹 **Lesson 12: Angular Form Validation (Built-in + Custom)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 We’ll cover validation for both:
 
@@ -894,7 +950,10 @@ userForm = new FormGroup({
 
 ---
 
+<a id="lesson-13-angular-pipes-built-in--custom"></a>
 ## 🔹 **Lesson 13: Angular Pipes (Built-in + Custom)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ What is a Pipe?
 
@@ -1012,7 +1071,10 @@ import { CustomGreetingPipe } from '../custom-greeting.pipe';
 
 ---
 
+<a id="lesson-14-http-requests-with-angular-httpclient"></a>
 ## 🔹 **Lesson 14: HTTP Requests with Angular `HttpClient`**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Angular’s `HttpClient` service is used to make API requests like `GET`, `POST`, `PUT`, `DELETE`.
 
@@ -1137,7 +1199,10 @@ export class HelloWorldComponent implements OnInit {
 
 ---
 
+<a id="lesson-15-component-communication-parent--child"></a>
 ## 🔹 **Lesson 15: Component Communication (Parent ↔ Child)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Angular apps have **many components** that often need to **talk to each other**.
 
@@ -1259,7 +1324,10 @@ If you want to try that, I’ll guide you in the next lesson.
    
 ---
 
+<a id="lesson-16-angular-lifecycle-hooks"></a>
 ## 🔹 **Lesson 16: Angular Lifecycle Hooks**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ What are Lifecycle Hooks?
 
@@ -1360,7 +1428,10 @@ export class HelloWorldComponent implements OnDestroy {
 
 ---
 
+<a id="lesson-17-angular-routing-guards-canactivate--candeactivate"></a>
 ## 🔹 **Lesson 17: Angular Routing Guards (CanActivate & CanDeactivate)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ What are Guards?
 
@@ -1477,7 +1548,10 @@ Now, trying to navigate away from `/hello` will show a confirmation.
 
 ---
 
+<a id="lesson-18-angular-signals-angular-16-feature"></a>
 ## 🔹 **Lesson 18: Angular Signals (Angular 16+ feature)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 **Signals** are a **new way to manage reactive state** in Angular without RxJS.
 They’re:
@@ -1581,7 +1655,10 @@ This logs the new value whenever `count` changes.
 
 ---
 
+<a id="lesson-19-standalone-components-no-ngmodules"></a>
 ## 🔹 **Lesson 19: Standalone Components (No NgModules)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Angular now supports **Standalone Components**, **Directives**, and **Pipes**, which means:
 
@@ -1682,7 +1759,10 @@ ng generate pipe my-pipe --standalone
 
 ---
 
+<a id="lesson-20-deferred-loading-in-angular-defer-loading-error-placeholder"></a>
 ## 🔹 **Lesson 20: Deferred Loading in Angular (`@defer`, `@loading`, `@error`, `@placeholder`)**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ### ✅ What is Deferred Loading?
 
@@ -1804,7 +1884,10 @@ You can add when/how to defer loading:
 
 ---
 
+<a id="lesson-21-image-optimization-with-ngoptimizedimage"></a>
 ## 🔹 **Lesson 21: Image Optimization with `ngOptimizedImage`**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Angular provides a powerful built-in directive:
 👉 `ngSrc` (via `NgOptimizedImage`) — which **loads images faster**, reduces layout shifts, and improves **Core Web Vitals** 🚀
@@ -1910,7 +1993,10 @@ This enables the `ngSrc` directive globally.
 
 ---
 
+<a id="lesson-22-angular-animations-with-angularanimations"></a>
 ## 🔹 **Lesson 22: Angular Animations with `@angular/animations`**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Angular supports **powerful, native animations** using:
 
@@ -2028,7 +2114,10 @@ Use this with `*ngIf` blocks:
 
 ---
 
+<a id="lesson-23-building--deploying-an-angular-app"></a>
 ## 🔹 **Lesson 23: Building & Deploying an Angular App**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 Whether for local testing or public hosting, Angular makes it easy to **build and deploy** your app with just a few commands.
 
@@ -2147,7 +2236,10 @@ ng build --configuration=production --base-href="/myapp/"
 
 ---
 
+<a id="lesson-24-angular-interview-questions--project-ideas"></a>
 ## 🔹 **Lesson 24: Angular Interview Questions + Project Ideas**
+
+[🔝 Back to Lesson List](#📘-table-of-contents)
 
 ---
 
